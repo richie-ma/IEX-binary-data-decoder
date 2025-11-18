@@ -861,10 +861,4 @@ def IEX_parser(path, data_product, max_read_msgs=None, dataframe=True, timestamp
     return results
 
 
-# %%
 
-
-test = IEX_parser(path="C:/Users/ruchuan2/Downloads/data_feeds_20201224_20201224_IEXTP1_DEEP1.0.pcap.gz",
-                  data_product='DEEP', max_read_msgs=5000, dataframe=True)
-
-path = "C:/Users/ruchuan2/Downloads/NY_IBF_2.1.pcap.gz"
